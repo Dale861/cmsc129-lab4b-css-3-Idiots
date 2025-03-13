@@ -282,6 +282,7 @@ footer {
     margin-top: 20px;
 }
 
+
 body.home {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -291,3 +292,52 @@ body.home {
     background-position: center;
     text-align: center;
 }
+
+#welcome {
+    font-size: 18px; 
+    color: #4b2e1e;
+    font-weight: bold; 
+    text-align: center; 
+    background-color: #f5e1c3; 
+    padding: 20px; /* Remove padding */
+    width: 100%; 
+    margin: 0; /* Remove margin */
+}
+
+#orderCoffee {
+    background-color: #8B4513; /* Coffee brown background */
+    color: white; /* White text color */
+    font-size: 18px; /* Font size */
+    padding: 10px 20px; /* Padding for better spacing */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+#orderCoffee:hover {
+    background-color: #A0522D; /* Slightly lighter brown */
+    transform: scale(1.1);
+}
+
+/* Button inside the anchor tag */
+a[href="order.html"] {
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow padding to work */
+}
+
+
+
+/* 
+LABORATORY EXERCISE #4
+Your task is to edit this CSS file and design the different web pages (delete the dummy/test code). 
+You are NOT allowed to modify/change the HTML files.
+
+Tips: 
+1. There are some elements that have no classes at all (such as the list of steps in making coffee), to style them, 
+you can use contextual selectors or attribute selectors to select them for styling
+2. Just with any web design project, it's best to draft a wireframe first before you start working with the CSS.
+3. You do not have to select all the classes/ids in the web pages; 
+the main goal is to create a website that is both visually appealing and user-friendly.
+*/
