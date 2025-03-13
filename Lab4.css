@@ -1,29 +1,333 @@
-* {
-    width: 100%;
+/* General Styles */
+body.about {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/CoffeeBanner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
 
-table {
-    width: 100%;
+
+/* Header */
+header {
+    background-color: #6f4e37;
+    color: white;
+    padding: 20px;
 }
 
-td {
-    max-width: 12%;
-    width: 100px;
+h1#title {
+    font-size: 28px;
+    font-weight: bold;
 }
 
-.coffeeImg {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+hr {
+    border: 1px solid #ddd;
+    margin: 10px;
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(198, 201, 202);
+}
+/* Navigation Bar */
+
+div.navBar {
+    background-color: #8b5e3b;
+    padding: 10px;
 }
 
-.about {
-    background-color: lightgreen;
+a.navigation {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+
+    
+    font-size: 18px;
 }
+
+/* About css by Oyco*/
+/* General Styles */
+body.order {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #6f4e37;
+    color: white;
+    padding: 20px 0;
+}
+
+header.hr {
+    font-size: 30px;
+    margin: 0;
+}
+
+#title {
+    font-size: 36px;
+    margin-left: 20px;
+
+}
+
+hr {
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* Navigation Bar */
+.navBar {
+    background-color: #8b5a2b;
+    padding: 10px 0;
+}
+
+.navigation {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.navigation:hover {
+    background-color: #6f4e37;
+    border-radius: 5px;
+}
+
+/* Banner Image */
+.imgBanner {
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Menu Section */
+.coffee {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6f4e37;
+}
+
+#coffee_choices {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#coffee_choices td {
+    padding: 10px;
+    text-align: center;
+}
+
+.coffeeImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.coffeeImg:hover {
+    transform: scale(1.1);
+}
+
+.label {
+    font-weight: bold;
+    color: #8b5a2b;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6f4e37;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #8b5a2b;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #6f4e37;
+}
+
+/* Footer */
+footer {
+    background-color: #6f4e37;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.contacts {
+    font-size: 14px;
+}
+/* About css by Oyco*/
+
+/* 
+LABORATORY EXERCISE #4
+Your task is to edit this CSS file and design the different web pages (delete the dummy/test code). 
+You are NOT allowed to modify/change the HTML files.*/
+
+a.navigation:hover {
+    text-decoration: underline;
+}
+a[href="#bottomPage"] {
+    display: block;
+    text-align: left; /* Align text to the left */
+    width: 80%; /* Match the banner width */
+    margin: 10px auto 0; /* Center it horizontally while keeping it above the banner */
+    font-size: 16px;
+    color: #f9f9f9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a[href="#bottomPage"]:hover {
+    text-decoration: underline;
+}
+
+
+/* Images */
+img.imgBanner.about {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+img.teamMember {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Coffee Sections */
+div.coffee {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+p.definition {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+span.emphasis {
+    font-weight: bold;
+    color: #8b5e3b;
+}
+
+span.term {
+    font-style: italic;
+    color: #6f4e37;
+}
+
+/* Videos */
+iframe.coffeeVideo {
+    width: 80%;
+    max-width: 500px;
+    height: 280px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #6f4e37;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+body.home {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/CoffeeCup.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#welcome {
+    font-size: 18px; 
+    color: #4b2e1e;
+    font-weight: bold; 
+    text-align: center; 
+    background-color: #f5e1c3; 
+    padding: 20px; /* Remove padding */
+    width: 100%; 
+    margin: 0; /* Remove margin */
+}
+
+#orderCoffee {
+    background-color: #8B4513; /* Coffee brown background */
+    color: white; /* White text color */
+    font-size: 18px; /* Font size */
+    padding: 10px 20px; /* Padding for better spacing */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+#orderCoffee:hover {
+    background-color: #A0522D; /* Slightly lighter brown */
+    transform: scale(1.1);
+}
+
+/* Button inside the anchor tag */
+a[href="order.html"] {
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow padding to work */
+}
+
+
 
 /* 
 LABORATORY EXERCISE #4
